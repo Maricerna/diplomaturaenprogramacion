@@ -1,0 +1,28 @@
+
+.alguno{
+    color: violet;
+    font-size: 22px;
+    font-weight: bold;
+    }
+
+ .varios{
+     color: red;
+     text-align: center;
+     font-family: arial;
+     text-transform: uppercase;
+ }   
+#green{
+    width: 310px;
+    height: 210px;
+    background-color: aqua;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border: 2px solid black;
+}
+#blue{
+    width: 310px;
+    height: 210px;
+    background-color: yellow;
+    border: 2px solid black;
+}
