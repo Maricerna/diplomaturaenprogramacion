@@ -1,0 +1,38 @@
+
+.contenedor
+{
+    display: flex;
+    justify-content:center;
+    border: solid;
+    flex-direction: row-reverse;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    margin-left:24.2vw;
+    margin-right:24.2vw;
+    /* margin-left: 310px;
+    margin-right: 310px; */
+}
+
+
+.box{
+    
+    text-align: center;
+    
+    padding: 100px;
+    color: white;
+}
+
+
+.box:first-child{
+
+   background-color: red;
+}
+
+.box:nth-child(2)
+{
+    background-color: blue;
+}
+
+
+.box:last-child
+{background-color: green;}

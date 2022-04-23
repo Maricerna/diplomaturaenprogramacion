@@ -1,0 +1,27 @@
+.contenedor {
+  display: inline-flex;
+  border: solid;
+  flex-direction: column;
+  padding-left: 35%;
+  margin-left: 24.2vw;
+  margin-right: 24.2vw;
+}
+
+.box {
+  text-align: center;
+
+  padding: 100px;
+  color: white;
+}
+
+.box:first-child {
+  background-color: red;
+}
+
+.box:nth-child(2) {
+  background-color: blue;
+}
+
+.box:last-child {
+  background-color: green;
+}
